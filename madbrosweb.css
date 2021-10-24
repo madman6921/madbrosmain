@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+
+    font-family: Noto Serif;
+}
+
+body{
+    background:#020024;
+    background:linear-gradient(90deg,#020024 0,rgba(38,134,154,.8972921932444853) 0,rgba(109,18,134,.8552753865217962) 65%,#6d1286 98%)
+}
+
+main{
+    
+}
+
+#madbrosgif{
+    position: absolute;
+    width: 25%;
+    left: 57.5%;
+    top: 112%;
+
+}
+
+.contentimg{
+    padding-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+
+.blockheadings{
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 15px;
+}
+
+.grid-item {
+    font-size: 20px;
+}
+
+.nav-link2{
+    float: right;
+    padding-left: 20px;
+}
+
+
+.nav-link3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    color: black;
+    padding: 15%;
+}
+
+.nav-link1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    padding-right: 20px;
+    color: black;
+}
+
+.nav-link1:hover{
+    color: white;
+}
+
+.footercontainer{
+    text-align: center;
+}
+
+.footeritem{
+    padding-right: 15px;
+}
+
+
+@media (max-width: 650px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+}
